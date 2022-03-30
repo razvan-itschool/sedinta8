@@ -1,0 +1,78 @@
+/* Proprietate particulara/Variabile de CSS */
+
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+
+  --bg-primary: #141e4c;
+
+  --font-size-tiny: 0.75rem;
+  --font-size-medium: 0.875rem;
+  --font-size-large: 1rem;
+
+  /* 1rem === 16px */
+
+  --spacing-tiny: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 12px;
+}
+
+/* a {
+  color: var(--text-primary);
+}
+
+p {
+  font-size: var(--font-size-large);
+} */
+
+/* Restarea proprietatilor de CSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.malefic-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: grey;
+  z-index: 1;
+}
+
+.hacked {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background-image: url("http://i.ytimg.com/vi/0vxCFIGCqnI/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
