@@ -1,3 +1,7 @@
 body {
   background-color: antiquewhite;
 }
+
+main h2 {
+  color: blue;
+}
